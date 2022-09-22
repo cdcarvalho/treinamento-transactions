@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transactions
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+  jpa:
+    generate-ddl: false
+    show-sql: false
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQL10Dialect
+  main:
+    log-startup-info: true
+
+logging:
+  level:
+    ##root: TRACE
+    org.springframework.orm.jpa: DEBUG
+    ##org.springframework.transaction.interceptor: TRACE
