@@ -1,4 +1,4 @@
-package br.com.itau.transactions.dto;
+package br.com.treinamento.transactions.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

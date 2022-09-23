@@ -1,7 +1,7 @@
-package br.com.itau.transactions.api;
+package br.com.treinamento.transactions.api;
 
-import br.com.itau.transactions.dto.TransactionDTO;
-import br.com.itau.transactions.service.TransactionService;
+import br.com.treinamento.transactions.dto.TransactionDTO;
+import br.com.treinamento.transactions.service.TransactionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

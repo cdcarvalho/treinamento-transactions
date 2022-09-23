@@ -1,10 +1,10 @@
-package br.com.itau.transactions.service;
+package br.com.treinamento.transactions.service;
 
-import br.com.itau.transactions.adapters.TransactionCopyAdapter;
-import br.com.itau.transactions.domain.TransactionCopy;
-import br.com.itau.transactions.dto.TransactionDTO;
-import br.com.itau.transactions.exception.SQLException;
-import br.com.itau.transactions.repository.TransactionCopyRepository;
+import br.com.treinamento.transactions.adapters.TransactionCopyAdapter;
+import br.com.treinamento.transactions.domain.TransactionCopy;
+import br.com.treinamento.transactions.dto.TransactionDTO;
+import br.com.treinamento.transactions.exception.SQLException;
+import br.com.treinamento.transactions.repository.TransactionCopyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

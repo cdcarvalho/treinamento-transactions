@@ -1,4 +1,4 @@
-package br.com.itau.transactions.exception;
+package br.com.treinamento.transactions.exception;
 
 import lombok.Getter;
 

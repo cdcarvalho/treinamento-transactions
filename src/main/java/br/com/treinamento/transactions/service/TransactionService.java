@@ -1,11 +1,10 @@
-package br.com.itau.transactions.service;
+package br.com.treinamento.transactions.service;
 
-import br.com.itau.transactions.adapters.TransactionAdapter;
-import br.com.itau.transactions.domain.Transaction;
-import br.com.itau.transactions.domain.TransactionCopy;
-import br.com.itau.transactions.dto.TransactionDTO;
-import br.com.itau.transactions.exception.SQLException;
-import br.com.itau.transactions.repository.TransactionRepository;
+import br.com.treinamento.transactions.adapters.TransactionAdapter;
+import br.com.treinamento.transactions.domain.Transaction;
+import br.com.treinamento.transactions.dto.TransactionDTO;
+import br.com.treinamento.transactions.exception.SQLException;
+import br.com.treinamento.transactions.repository.TransactionRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

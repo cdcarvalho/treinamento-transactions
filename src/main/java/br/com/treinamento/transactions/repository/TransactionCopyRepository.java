@@ -1,10 +1,9 @@
-package br.com.itau.transactions.repository;
+package br.com.treinamento.transactions.repository;
 
-import br.com.itau.transactions.domain.TransactionCopy;
+import br.com.treinamento.transactions.domain.TransactionCopy;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.QueryHints;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.LockModeType;
 import javax.persistence.QueryHint;

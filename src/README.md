@@ -21,7 +21,7 @@
 ## NEVER
 - Execute não transacionalmente, lance uma exceção se existir uma transação.
 
-## NEVER
+## NESTED
 - Execute dentro de uma transação aninhada se existir uma transação atual, se comporte como REQUIRED caso contrário.
 
 ## PONTOS PARA DISCUSSÃO

@@ -1,7 +1,7 @@
-package br.com.itau.transactions.adapters;
+package br.com.treinamento.transactions.adapters;
 
-import br.com.itau.transactions.domain.TransactionCopy;
-import br.com.itau.transactions.dto.TransactionDTO;
+import br.com.treinamento.transactions.domain.TransactionCopy;
+import br.com.treinamento.transactions.dto.TransactionDTO;
 
 public class TransactionCopyAdapter {
 

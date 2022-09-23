@@ -1,4 +1,4 @@
-package br.com.itau.transactions.domain;
+package br.com.treinamento.transactions.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
